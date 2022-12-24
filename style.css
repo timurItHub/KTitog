@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&family=Lobster&display=swap');
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    } 
+body {
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    color: brown;
+    background-color: bisque;
+}
+header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100px;
+    width: 100px;
+}
+h3 {
+    font-size: 30px;;
+}
+.wrapper {
+    position: relative;
+    height: 1000px;
+}
+.cont{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.wrapper1 {
+    position: relative;
+    height: 100px;
+}
+.cont2 {
+    position: relative;
+    display: flex;
+    width: 1000px;
+    gap: 10px;
+}
+.cont3 {
+    position: relative;
+    display: flex;
+    width: 1000px;
+    gap: 10px;
+}
+.cont4 {
+    position: relative;
+    display: flex;
+    width: 1000px;
+    gap: 10px;
+}
+.cont5 {
+    position: relative;
+    display: flex;
+    width: 1000px;
+    gap: 10px;
+}
+.cont6 {
+    position: relative;
+    display: flex;
+    width: 1000px;
+    gap: 10px;
+}
+.mak {
+    width: 1600px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+.mak1 {
+    width: 100000px;
+}
+.mak2 {
+    width: 100000px;
+}
+.mak3 {
+    width: 100000px;
+}
+.mak4 {
+    width: 100000px;
+}
+.mak5 {
+    width: 100000px;
+}
+footer {
+    background-color: black;
+    height: 25px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.text-typing {
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 50px;
+    color: red;
+    font-size: 42px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation-name: type;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}
+@keyframes type {
+    from { width: 1000px;}
+    to {width: 100%;}
+}
+@media only screen and (min-width: 300px) and (max-width: 1200px) {
+    .text-typing{
+        font-size: 17px;
+    }
+    header {
+        height: 50px;
+        width: 50px;
+    }
+    h3 {
+        font-size: 23px;
+    }
+    .mak {
+        width: 1000px;
+    }
+    @keyframes type {
+        from { width: 500px;}
+        to {width: 100%;}
+    }
+    .wrapper {
+        height: 650px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .mak1 {
+        width: 500px;
+    }
+    .cont2 {
+        width: 500px;
+    }
+    .mak2 {
+        width: 5000px;
+    }
+    .cont3 {
+        width: 900px;
+    }
+    .mak3 {
+        width: 900px;
+    }
+    .cont4 {
+        width: 900px;
+    }
+    .mak4 {
+        width: 2500px;
+    }
+    .cont5 {
+        width: 1000px;
+    }
+    .mak5 {
+        width: 1800px;
+    }
+    .cont6 {
+        width: 1000px;
+    }
+    footer {
+        height: 50px;
+    }
+}
