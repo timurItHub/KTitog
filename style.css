@@ -107,6 +107,50 @@ footer {
     animation-duration: 9s;
     animation-iteration-count: infinite;
 }
+.wrapper_6 {
+    width: 80vw;
+    min-height: 100vh; 
+    background-color: bisque;   
+    }
+    .last{
+    width: 800px;
+    height: 500px;
+    color: rgb(253, 253, 253);
+    background-color: gray;
+    position: relative;
+    top: 50px;
+    left: 350px;
+    border-radius: 50% 20% / 10% 40%;
+    }
+    input {
+    width: 500px;
+    height: 60px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    }
+    .connect p{
+    margin-left: 155px;
+    }
+    h5{
+    font-size: 25px;
+    text-align: center;
+    }
+    .send {
+    margin-top: 23px;
+    padding: 14px 32px;
+    box-sizing: border-box;
+    background-color: white;
+    border: 1px solid #3C3C3C;
+    transition: all 0.2s ease-in-out;
+    margin-left: 350px;
+    margin-bottom: 10px;
+    }
+    .send:hover {
+        color: white;
+        background-color: brown;
+        border: 3px solid white;
+    }
 @keyframes type {
     from { width: 1000px;}
     to {width: 100%;}
@@ -170,5 +214,11 @@ footer {
     }
     footer {
         height: 50px;
+    }
+    .last {
+        width: 600px;
+        height: 300px;
+        left: 220px;
+        
     }
 }
