@@ -155,70 +155,87 @@ footer {
     from { width: 1000px;}
     to {width: 100%;}
 }
-@media only screen and (min-width: 300px) and (max-width: 1200px) {
+@media (max-width: 1200px) {
     .text-typing{
-        font-size: 17px;
+        font-size: 23px;
     }
     header {
-        height: 50px;
-        width: 50px;
+        height: 70px;
+        width: 70px;
+        top: 1px;
     }
     h3 {
         font-size: 23px;
     }
     .mak {
         width: 1000px;
+        left: 0px;
     }
     @keyframes type {
-        from { width: 500px;}
+        from { width: 100px;}
         to {width: 100%;}
     }
     .wrapper {
         height: 650px;
     }
     h1 {
-        font-size: 20px;
+        font-size: 30px;
     }
     h2 {
-        font-size: 20px;
+        font-size: 17.9px;
     }
     .mak1 {
-        width: 500px;
+        width: 700px;
+        height: 700px;
     }
     .cont2 {
         width: 500px;
     }
     .mak2 {
-        width: 5000px;
+        width: 700px;
+        height: 700px;
     }
     .cont3 {
-        width: 900px;
+        width: 700px;
+        height: 700px;
     }
     .mak3 {
-        width: 900px;
+        width: 700px;
+        height: 700px;
     }
     .cont4 {
-        width: 900px;
+        width: 500px;
     }
     .mak4 {
-        width: 2500px;
+        width: 700px;
+        height: 700px;
     }
     .cont5 {
-        width: 1000px;
+        width: 500px;
     }
     .mak5 {
-        width: 1800px;
+        width: 800px;
+        height: 800px;
     }
     .cont6 {
-        width: 1000px;
+        width: 500px;
     }
     footer {
         height: 50px;
+
     }
     .last {
         width: 600px;
         height: 300px;
         left: 220px;
         
+    }
+    input {
+        position: relative;
+        right: 100px;
+    }
+    .send {
+        position: relative;
+        right: 110px;
     }
 }
